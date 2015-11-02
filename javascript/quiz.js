@@ -78,7 +78,7 @@ app.directive('quiz', function(questions, levels) {
 					scope.category = question.category;
 				} else {
           scope.level = levels.getLevel(scope.score);
-					scope.social_text = "Fiz o Quiz e sou um " + scope.level.title +  ". Quer testar seu conhecimento?";
+					scope.social_text = "Fiz o Quiz Gestão para Empreendedores e sou um " + scope.level.title +  ". Quer testar seu conhecimento?";
 					scope.quizOver = true;
 					scope.hideProgress = true;
 
@@ -170,7 +170,7 @@ app.directive('quiz', function(questions, levels) {
 			scope.shareTwitter = function(){
 				scope.socialConversion("Twitter");
 
-				scope.social_text += " http:// via @";
+				scope.social_text += " http://bit.ly/quiz-gestao via @syhus_oficial";
 
 				var url = "https://twitter.com/intent/tweet?text=" + scope.social_text;
 
