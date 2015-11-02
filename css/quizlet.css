@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-  background-color: #506e84;
+  background-color: #00457C;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@ hr {
 }
 
 #question {
-  color: #506e84;
+  color: #00457C;
 }
 
 .intro{
@@ -102,7 +102,7 @@ hr {
 }
 
 .about h2 {
-  color: #506e84;
+  color: #00457C;
   font-size: 42px;
   text-align: center;
 }
