@@ -4,9 +4,15 @@ app.factory("levels", function() {
   var levels = [
     {
       minimun_score: 0,
-  		title: "Calouro do Marketing Digital",
+  		title: "Empreendedor Calouro",
   		text: "Você começou a trilhar agora o seu caminho. Um hangout exclusivo faria muito bem para seu projeto. Passe no stand da Syhus para combinarmos os detalhes."
       image: "images/freshman.png"
+  	},
+   {
+      minimun_score: 4,
+  	title: "Empreendedor recém-graduado",
+-  		text: "Você já aprendeu o essencial e está pronto para seguir seu caminho!",
+-      image: "images/graduated.png"
   	},
     {
       minimun_score: 7,
