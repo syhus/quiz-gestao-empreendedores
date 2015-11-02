@@ -110,25 +110,25 @@ hr {
 .btn-primary {
   border: none;
   background-color: #65C8C6;
-  box-shadow: 0px 4px 0px #50a19f;
+  box-shadow: 0px 4px 0px #CE6B63;
 }
 
 .btn-primary:hover {
   border: none;
-  background-color: #ED857A;
+  background-color: #65C8C6;
   box-shadow: 0px 4px 0px #CE6B63;
 }
 
 .btn-primary:focus {
   border: none;
   background-color: #65C8C6;
-  box-shadow: 0px 4px 0px #50a19f;
+  box-shadow: 0px 4px 0px #CE6B63;
 }
 
 .btn-primary[disabled], .btn-primary[disabled]:hover {
   border: none;
   background-color: #65C8C6;
-  box-shadow: 0px 4px 0px #50a19f;
+  box-shadow: 0px 4px 0px #CE6B63;
 }
 
 input[type=radio], input[type=checkbox] {
