@@ -158,10 +158,10 @@ app.directive('quiz', function(questions, levels) {
 
 				FB.ui({
 				  method: 'feed',
-				  link: 'http://',
+				  link: 'http://bit.ly/quiz-gestao',
 					name: scope.social_text,
-					description: "",
-					picture: "http://" + scope.level.image
+					description: "texto-teste",
+					picture: "http://bit.ly/quiz-gestao" + scope.level.image
 
 				}, function(response){
 				});
