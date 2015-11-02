@@ -39,7 +39,7 @@ app.directive('quiz', function(questions, levels) {
 				var data_array = {
 					nome: 					 scope.name,
 					email: 					 scope.email,
-					identificador: 	 'iniciou-quiz- impostos',
+					identificador: 	 'iniciou-quiz-gestao',
 					token_rdstation: 'fca165e7cf22dc85d0bf197145f2d400'
 				};
 
@@ -146,7 +146,7 @@ app.directive('quiz', function(questions, levels) {
 					nome: 					 scope.name,
 					email: 					 scope.email,
 					network_name:    network_name,
-					identificador: 	 'compartilhou-quiz-impostos',
+					identificador: 	 'compartilhou-quiz-gestao',
 					token_rdstation: 'fca165e7cf22dc85d0bf197145f2d400'
 				};
 
@@ -182,8 +182,8 @@ app.directive('quiz', function(questions, levels) {
 
 				var url = "https://www.linkedin.com/shareArticle?mini=true";
 
-				url += "&url=http://";
-				url += "&title=Quiz";
+				url += "&url=http://syhus.github.io/quiz-impostos-syhus/";
+				url += "&title=Quiz da Gestão para Empreendedores";
 				url += "&summary=" + scope.social_text;
 
 				window.open(url, "_blank");
