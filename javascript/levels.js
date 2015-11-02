@@ -9,9 +9,9 @@ app.factory("levels", function() {
       image: "images/freshman.png"
   	},
     {
-      minimun_score: 11,
-  		title: "Recém-graduado em Marketing Digital",
-  		text: "Você já aprendeu o essencial e está pronto para seguir seu caminho!",
+      minimun_score: 4,
+  		title: "Empreendedor recém-graduado",
+  		text: "Você já aprendeu o essencial e está pronto para seguir seu caminho! Um hangout exclusivo gratuito com a Syhus pode te ajudar com seu projeto. Passe no nosso stand combinarmos os detalhes.",
       image: "images/graduated.png"
   	},
     {
