@@ -15,15 +15,15 @@ app.factory("levels", function() {
       image: "images/graduated.png"
   	},
     {
-      minimun_score: 16,
-  		title: "Expert em Marketing Digital",
-  		text: "Você já sabe quase tudo de marketing digital.",
+      minimun_score: 7,
+  		title: "Empreendedor Expert",
+  		text: "Você sabe quase tudo sobre gestão. Meia hora de consultoria gratuita te faria muito bem! Passe no stand da Syhus para combinarmos a data!",
       image: "images/expert.png"
   	},
     {
-      minimun_score: 20,
-      title: "Ninja do Marketing Digital",
-      text: "Você sabe tudo de marketing digital. Me dá um autógrafo?",
+      minimun_score: 10,
+      title: "Empreendedor Ninja",
+      text: "Você sabe tudo sobre gestão e merece um prêmio! Passe no stand da Syhus para ganhar 1 mês de consultoria gratuita (4 horas)",
       image: "images/ninja.png"
     }
   ];
