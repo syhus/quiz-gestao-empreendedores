@@ -4,8 +4,8 @@ app.factory("levels", function() {
   var levels = [
     {
       minimun_score: 0,
-  		title: "Calouro do Marketing Digital",
-  		text: "Você começou a trilhar agora o seu caminho em marketing digital. Continue firme e forte!",
+  		title: "Empreendedor Calouro",
+  		text: "Você começou a trilhar agora o seu caminho. Um hangout exclusivo faria muito bem para seu projeto. Passe no stand da Syhus para combinarmos os detalhes.",
       image: "images/freshman.png"
   	},
     {
