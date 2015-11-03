@@ -158,7 +158,7 @@ app.directive('quiz', function(questions, levels) {
 
 				FB.ui({
 				  method: 'feed',
-				  link: 'http://bit.ly/quiz-gestao',
+				  link: 'http://bit.ly/quiz-gestao-empreendedores',
 					name: scope.social_text,
 					description: "texto-teste",
 					picture: "http://bit.ly/quiz-gestao" + scope.level.image
@@ -170,7 +170,7 @@ app.directive('quiz', function(questions, levels) {
 			scope.shareTwitter = function(){
 				scope.socialConversion("Twitter");
 
-				scope.social_text += " http://bit.ly/quiz-gestao via @syhus_oficial";
+				scope.social_text += " http://bit.ly/quiz-gestao-empreendedores via @syhus_oficial";
 
 				var url = "https://twitter.com/intent/tweet?text=" + scope.social_text;
 
@@ -182,7 +182,7 @@ app.directive('quiz', function(questions, levels) {
 
 				var url = "https://www.linkedin.com/shareArticle?mini=true";
 
-				url += "&url=http://syhus.github.io/quiz-impostos-syhus/";
+				url += "&url=http://bit.ly/quiz-gestao-empreendedores";
 				url += "&title=Quiz da Gestão para Empreendedores";
 				url += "&summary=" + scope.social_text;
 
