@@ -94,7 +94,7 @@ app.directive('quiz', function(questions, levels) {
 						nivel:           scope.level.title,
 						fracos:          scope.weak_categories.toString(),
 						fortes:          scope.strong_categories.toString(),
-						identificador: 	 'finalizou-quiz-impostos',
+						identificador: 	 'finalizou-quiz-gestao',
 						token_rdstation: 'fca165e7cf22dc85d0bf197145f2d400'
 					};
 
